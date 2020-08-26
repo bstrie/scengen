@@ -1,0 +1,50 @@
+[troll]
+hd = [6]
+hd_mod = 3
+alignment = ["CE"]
+treasure = "D"
+powers = ["fast", "regeneration"]
+personality = ["hungry", "brave", "bully", "greedy", "stupid"]
+
+[vampire]
+hd = [7, 9]
+alignment = ["LE"]
+treasure = "F"
+powers = ["fast", "flight", "energy drain", "regeneration", "charm", "thrall", "unkillable", "invulnerable", "nonmagic", "summon (rats)", "summon (bats)", "shape (bat)", "shape (gas)", "undead"]
+personality = ["mastermind", "social", "proud", "hungry"]
+
+[zombie]
+hd = [2]
+alignment = ["N"]
+treasure = []
+powers = ["undead", "mindless", "slow"]
+personality = ["automatons", "mindless"]
+
+[goblin]
+hd = [1]
+hd_mod = -1
+alignment = ["LE"]
+treasure = "L"
+powers = ["darkvision", "leader (king)"]
+personality = ["cowards", "scheming", "greedy"]
+
+[dragon]
+hd = [5, 11]
+alignment = ["NE", "CE", "N", "CG"]
+powers = ["breath", "flight"]
+personality = ["proud", "rich", "ancient"]
+
+[bandit]
+hd = [1]
+alignment = ["LE", "CE", "N"]
+powers = ["leader (fighter)", "leader (magic user)", "leader (cleric)"]
+personality = ["scheming", "greedy"]
+
+[ogre]
+hd = 4
+hd_mod = 1
+treasure = ["C"]
+treasure_mod = "1000"
+alignment = ["CE"]
+powers = ["strong"]
+personality = ["bully", "greedy", "stupid"]
