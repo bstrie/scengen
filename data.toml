@@ -41,7 +41,7 @@ powers = ["leader (fighter)", "leader (magic user)", "leader (cleric)"]
 personality = ["scheming", "greedy"]
 
 [ogre]
-hd = 4
+hd = [4]
 hd_mod = 1
 treasure = ["C"]
 treasure_mod = "1000"
