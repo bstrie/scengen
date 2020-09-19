@@ -16,7 +16,6 @@ personality = ["mastermind", "social", "proud", "hungry"]
 [zombie]
 hd = [2]
 alignment = ["N"]
-treasure = []
 powers = ["undead", "mindless", "slow"]
 personality = ["automatons", "mindless"]
 
@@ -43,8 +42,8 @@ personality = ["scheming", "greedy"]
 [ogre]
 hd = [4]
 hd_mod = 1
-treasure = ["C"]
-treasure_mod = "1000"
+treasure = "C"
+treasure_mod = "1000 gp"
 alignment = ["CE"]
 powers = ["strong"]
 personality = ["bully", "greedy", "stupid"]
